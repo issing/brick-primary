@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>net.isger</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>1</version>
+  </parent>
+  <artifactId>brick-primary</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>brick-primary</name>
+  <description>A deployment platform for Brick</description>
+  <url>https://github.com/issing/brick-primary</url>
+
+  <scm>
+    <connection>scm:git:https://github.com/issing/brick-primary.git</connection>
+    <developerConnection>scm:git:git@github.com:issing/brick-primary.git</developerConnection>
+    <url>https://github.com/issing/brick-primary</url>
+  </scm>
+
+  <properties>
+    <brick.version>${project.version}</brick.version>
+  </properties>
+
+  <modules>
+    <!-- 工具模块 -->
+    <module>brick-blue</module>
+    <module>brick-util</module>
+    <module>brick-raw</module>
+    <module>brick-raw-gson</module>
+    <module>brick-velocity</module>
+    <!-- 内核模块 -->
+    <module>brick-core</module>
+    <module>brick-standard</module>
+    <!-- 交互模块 -->
+    <module>brick-ui</module>
+    <module>brick-web</module>
+    <module>brick-struts</module>
+    <module>brick-velocity-struts</module>
+  </modules>
+</project>
