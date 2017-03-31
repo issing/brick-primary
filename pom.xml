@@ -40,5 +40,7 @@
     <module>brick-web</module>
     <module>brick-struts</module>
     <module>brick-velocity-struts</module>
+    <!-- 扩展模块 -->
+    <module>brick-zmq</module>
   </modules>
 </project>
