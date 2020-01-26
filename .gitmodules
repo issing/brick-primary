@@ -1,0 +1,15 @@
+[submodule "brick-blue"]
+	path = brick-blue
+	url = https://github.com/issing/brick-blue.git
+[submodule "brick-core"]
+	path = brick-core
+	url = https://github.com/issing/brick-core.git
+[submodule "brick-raw"]
+	path = brick-raw
+	url = https://github.com/issing/brick-raw.git
+[submodule "brick-util"]
+	path = brick-util
+	url = https://github.com/issing/brick-util.git
+[submodule "brick-velocity"]
+	path = brick-velocity
+	url = https://github.com/issing/brick-velocity.git
