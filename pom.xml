@@ -8,7 +8,7 @@
         <relativePath />
     </parent>
     <artifactId>brick-primary</artifactId>
-    <version>0.0.2-alpha</version>
+    <version>${brick.version}</version>
     <packaging>pom</packaging>
     <name>brick-primary</name>
     <description>A deployment platform for Brick</description>
@@ -19,7 +19,7 @@
         <url>https://github.com/issing/brick-primary</url>
     </scm>
     <properties>
-        <brick.version>${project.version}</brick.version>
+        <brick.version>0.0.3-SNAPSHOT</brick.version>
         <bouncycastle.version>1.56</bouncycastle.version>
         <inject.version>1</inject.version>
         <httpclient.version>4.5.14</httpclient.version>
