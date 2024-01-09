@@ -13,3 +13,6 @@
 [submodule "brick-velocity"]
 	path = brick-velocity
 	url = https://github.com/issing/brick-velocity.git
+[submodule "brick-raw-gson"]
+	path = brick-raw-gson
+	url = github.git:/issing/brick-raw-gson.git
