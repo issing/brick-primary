@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <artifactId>brick-primary</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packaging>pom</packaging>
 
     <name>brick-primary</name>
@@ -23,7 +23,7 @@
     </scm>
 
     <properties>
-        <brick.version>0.0.3</brick.version>
+        <brick.version>${project.version}</brick.version>
         <bouncycastle.version>1.80</bouncycastle.version>
         <inject.version>1</inject.version>
         <httpclient.version>4.5.14</httpclient.version>
